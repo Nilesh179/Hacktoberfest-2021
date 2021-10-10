@@ -1,13 +1,3 @@
-/*weight in pounds and
-height in inches 
- Now calculating the user’s BMI ((weight
-multiplied by 703), divided by (height times height)). If the bmi is 30 or
-greater, the script should write, “Your weight is considered to be unhealthy.”
-Otherwise if the bmi is 25 or greater, then write, “You are currently
-considered to be overweight.” Otherwise if the bmi is 18.5 or over, then write
-“Your weight is considered normal and healthy”. Otherwise write, “You are
-considered underweight.*/
-
 #include<stdio.h>
 
 int main()
@@ -26,7 +16,8 @@ int main()
      
      BMI = (weight*703)/(height*height);
     printf("\nYour BMI is: %f", BMI);
-
+ 
+    printf("Your BMI index is : %d\n", BMI);
     if(BMI >= 30)
     {
       printf("\n%s ,Your weight is considered to be unhealthy.",name);
