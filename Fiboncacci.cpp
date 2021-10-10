@@ -4,7 +4,7 @@ int main()
 {
 int first=0, second=1; 
 int limit, next;
-cout<<"Enter the limit"<<endl;
+cout<<"Enter the number of places until you want to print : "<<endl;
 cin>>limit;
 cout<<first;
 while(second < limit) 
